@@ -1,0 +1,151 @@
+*{
+    text-decoration: none;
+    outline: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conteiner-geral{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(40, 41, 41)
+}
+.conteiner-color{
+    margin-right: 40px;
+    background-color: cadetblue;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+.conteiner-color input{
+    margin: 2px;
+    text-align: center;
+}
+.color{
+   width: 500px;
+   height: 200px;
+   border-radius: 10px;
+}
+.color-red{
+    width: 30px;
+    height: 40px;
+    background-color: rgb(226, 43, 144);
+}
+.color-green{
+    width: 30px;
+    height: 40px;
+    background-color: rgb(49, 226, 43);
+}
+.color-blue{
+    width: 30px;
+    height: 40px;
+    background-color: rgb(20, 17, 219);
+}
+.percent-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+.percent-text input{
+  text-align: center;
+}
+.color-op a{
+    color: chartreuse;
+}
+.op{
+    margin-top: 10px;
+    display: flex;
+}
+.op div{
+    margin: 5px;
+    border: solid 2px #fff;
+}
+.op div:first-child{
+    margin-left: 20px;
+}
+.op input{
+    width: 450px;
+}
+.r{
+    color: rgb(255, 0, 0);
+}
+.g{
+    color: rgb(0, 255, 21);
+}
+.b{
+    color: rgb(0, 26, 255);
+}
+.br{
+    color: rgb(0, 255, 55);
+}
+.mistura input{
+  width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url('body_1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .conteiner-geral{
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: none;
+        padding-top: 0px;
+    }
+    .color-op{
+        width: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .color{
+        width: 250px;
+        height: 60px;
+    }
+    .conteiner-color {
+        width: 220px;
+        background: none;
+    }
+    .conteiner-color input{
+        width: 130px;
+    }
+    .op input{
+        width: 250px;
+    }
+    h1{
+        color: rgb(0, 0, 0);
+        margin-bottom: 0px;
+        text-shadow: 0px 0px 8px rgb(255, 255, 255);
+    }
+    .br{
+        color: rgb(4, 239, 247);
+    }
+    #chk{
+        width: 20px;
+    }
+    .mistura{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .mistura input{
+      width: 190px;
+      font-weight: 900;
+      border-radius: 5em;
+    }
+    
+}

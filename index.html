@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Color</title>
+</head>
+
+<body>
+
+  <h1>Selector of Color</h1>
+  <div class="conteiner-geral">
+    <section class="conteiner-color">
+      <div class="red">
+        <span class="r">R</span><input onchange="mudaCor()" class="redd" type="text" placeholder="Valor R"> <span
+          class="r">Vervelho</span>
+      </div>
+
+      <div class="green">
+        <span class="g">G</span><input onchange="mudaCor()" class="greenn" type="text" placeholder="Valor G"> <span
+          class="g">Verde</span>
+      </div>
+
+      <div class="blue">
+        <span class="b">B</span><input onchange="mudaCor()" class="bluee" type="text" placeholder="Valor B"> <span
+          class="b">Azul</span>
+      </div>
+
+      <span>Personalizadas<input onchange="mudaCor()" id="chk" type="checkbox"></span>
+
+      <div class="red">
+        <span class="r">R</span><input onchange="mudaCor()" class="range-red" type="range" min="0" max="255"> <span
+          class="r">Vervelho</span>
+      </div>
+
+      <div class="green">
+        <span class="g">G</span><input onchange="mudaCor()" class="range-green" type="range" min="0" max="255"> <span
+          class="g">Verde</span>
+      </div>
+
+      <div class="blue">
+        <span class="b">B</span><input onchange="mudaCor()" class="range-blue" type="range" min="0" max="255"> <span
+          class="b">Azul</span>
+      </div>
+
+      <div class="percent-text">
+        <span class="r">% Vermelho</span><input id="porcent-red" type="text" placeholder="0%" disabled>
+        <span class="g">% Verde</span><input id="porcent-green" type="text" placeholder="0%" disabled>
+        <span class="b">% Azul</span><input id="porcent-blue" type="text" placeholder="0%" disabled>
+      </div>
+
+      <div class="mistura"> 
+        <span>Insira a quantidade pra mistura</span>
+        <input class="material-user" type="text">
+        <a style="color: rgb(230, 136, 14);" href="http://www.photoshoponline.net.br/">Foto RGB<img src="cam_1.png" alt="img"></a>
+      </div>
+    </section>
+
+    <div class="color-op">
+      <div class="color"></div>
+
+      <div class="op">
+        <span class="br">Op</span><input onchange="mudaCor()" class="opacity" type="range" min="0" max="10"
+          value="10"><span class="br br-value">0%</span>
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
